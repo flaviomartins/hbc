@@ -63,6 +63,7 @@ public class Constants {
   public static final String USER_ID_PARAM = "user_id";
   public static final String CURSOR_PARAM = "cursor";
 
+  public static final String API_HOST = "https://api.twitter.com";
   public static final String STREAM_HOST = "https://stream.twitter.com";
   public static final String SITESTREAM_HOST = "https://sitestream.twitter.com";
   public static final String USERSTREAM_HOST = "https://userstream.twitter.com";

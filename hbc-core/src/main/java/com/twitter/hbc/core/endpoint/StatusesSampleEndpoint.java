@@ -18,9 +18,11 @@ import com.twitter.hbc.core.HttpConstants;
 
 public class StatusesSampleEndpoint extends DefaultStreamingEndpoint {
 
-  public static final String PATH = "/statuses/sample.json";
+  public static final String PATH = "/tweets/sample/stream";
 
   public StatusesSampleEndpoint() {
     super(PATH, HttpConstants.HTTP_GET, false);
+    this.setApiVersion("2");
+    this.delimited(false);
   }
 }
